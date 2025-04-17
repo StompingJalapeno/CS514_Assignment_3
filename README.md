@@ -22,7 +22,7 @@ Implement classical adversarial search algorithms — Minimax and Alpha-Beta Pru
     ```bash
     conda create -n chessenv python=3.10 anaconda
     conda activate chessenv
-
+    ```
 
 
 3. Download this repository as a ZIP folder.
