@@ -48,7 +48,7 @@ Implement classical adversarial search algorithms — Minimax and Alpha-Beta Pru
 8. Finally, install all dependencies using the provided Bash script:
 
     ```bash
-    # pip install python-chess matplotlib cairosvg
+    pip install python-chess matplotlib cairosvg
     ```
 
 
