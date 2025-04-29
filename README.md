@@ -143,7 +143,8 @@ Alpha-Beta does the same but more efficiently by pruning unnecessary branches—
     └── move_107.png
     └── move_108.png
 ```
-
+## Implemenatation 
+- User Input → Board Setup → Minimax / Alpha-Beta Search → Evaluation Function (Stockfish) → Best Move → Visualization
 
 ## References
 
