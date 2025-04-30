@@ -78,15 +78,15 @@ Alpha-Beta does the same but more efficiently by pruning unnecessary branches—
 
 | Algorithm | Environment   | Computation Time  | Evaluation to root | Best Move| Board|
 |-----------|---------------|------------------|--------|----------------------|------------------------------|
-| MINIMAX      | Chess  |    199.17 seconds          |   66  | c1f4 | minimax_board.svg |
-| AlphaBetaPruning     | Chess  | 199.14 seconds            |  0   | c1f4           | alphabeta_pruning_board.svg |
+| MINIMAX      | Chess  |    199.17 seconds (Time taken to build the tree = 199.10 s)         |   66  | c1f4 | minimax_board.svg |
+| AlphaBetaPruning     | Chess  | 199.14 seconds (Time taken to build the tree = 199.10 s)           |  0   | c1f4           | alphabeta_pruning_board.svg |
 
 
 
 | Algorithm | Environment   | Computation  Time  | Depth | Best Move | Evaluation | Board |
 |-----------|---------------|-----------------------|--------|---------------|------|------------------------------|
-| MINIMAX with K-Ply        | Chess          | 9.86 s             |  2   | c1f4        | 48 | Minimax_K_ply_board.svg |
-| AlphaBetaPruning  with K-Ply  | Chess    | 0.88 s       | 2          |  c1f4   | 26 |     aplhaBeta_K_ply_board.svg      |
+| MINIMAX with K-Ply        | Chess          | 9.86 s  (Tree is build on Fly, hence cannot be separated )           |  2   | c1f4        | 48 | Minimax_K_ply_board.svg |
+| AlphaBetaPruning  with K-Ply  | Chess    | 0.88 s  (Tree is build on Fly, hence cannot be separated )| 2          |  c1f4   | 26 |     aplhaBeta_K_ply_board.svg      |
 
 
 
