@@ -117,6 +117,26 @@ Alpha-Beta does the same but more efficiently by pruning unnecessary branches—
 - Visualization via `.svg` boards helped verify and understand move quality.
 
 
+## Charts
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/image1.png" width="300"/><br/>
+      <sub>Time taken vs Depth</sub>
+    </td>
+    <td align="center">
+      <img src="images/image2.png" width="300"/><br/>
+      <sub>Number of nodes evaluated for each Depth</sub>
+    </td>
+    <td align="center">
+      <img src="images/image3.png" width="300"/><br/>
+      <sub>% improvement of AlphaBetaPruning over MiniMax vs Depth</sub>
+    </td>
+  </tr>
+</table>
+
+
 
 ## Directory Structure
 ```bash
